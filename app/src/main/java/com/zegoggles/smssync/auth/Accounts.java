@@ -28,7 +28,6 @@ public class Account {
 	private String bankHistory;
 	private String bloodGroup;
 	private String parentName;
-	private String salary;
 	private String dob;
 
 
@@ -40,13 +39,6 @@ public class Account {
 		this.bankHistory = bankHistory;
 	}
 
-	public String getSalary() {
-		return salary;
-	}
-
-	public void setSalary(String salary) {
-		this.salary = salary;
-	}
 
   	public String getDob() {
 		return dob;
